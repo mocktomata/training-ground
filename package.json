@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "evil": "pnpm --filter evil-empire"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}

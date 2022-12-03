@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "newLine": "LF",
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "rootDir": "ts",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020"
+  },
+  "include": [
+    "ts",
+    "types"
+  ]
+}
