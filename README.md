@@ -9,6 +9,7 @@ To get started, fork this repo and clone it locally.
 ## Setup
 
 This training ground uses [pnpm] as the package manager.
+
 If you are using an older version of NodeJS,
 run `corepack enable` to enable it.
 
@@ -21,12 +22,8 @@ pnpm install
 ## Getting started
 
 Each training has an alias added at the root.
-You can use that to run commands specific to a training.
+You can start each training directly from the root:
 
-For example:
-
-```sh
-pnpm evil build
-```
+- `pnpm evil start`
 
 [mocktomata]: https://github.com/mocktomata/mocktomata

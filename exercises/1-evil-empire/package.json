@@ -8,8 +8,7 @@
     "email": "homawong@gmail.com"
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "start": "jest --bail"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
