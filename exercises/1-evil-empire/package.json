@@ -8,7 +8,8 @@
     "email": "homawong@gmail.com"
   },
   "scripts": {
-    "start": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --bail"
+    "start": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --bail",
+    "start:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
