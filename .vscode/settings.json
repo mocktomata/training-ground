@@ -4,6 +4,7 @@
     "mockto",
     "mocktomata",
     "repobuddy",
-    "speced"
+    "speced",
+    "tersify"
   ]
 }

@@ -1,2 +1,2 @@
-import './1-our-evil-goal'
-import './2-find-the-cat'
+import './1-our-evil-goal.js'
+import './2-find-the-breed.js'

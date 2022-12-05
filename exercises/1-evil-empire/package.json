@@ -7,20 +7,21 @@
     "name": "Homa Wong",
     "email": "homawong@gmail.com"
   },
+  "type": "module",
   "scripts": {
-    "start": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --bail",
-    "start:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch"
+    "start": "cross-env NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest --bail",
+    "start:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest --watch"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
-    "@repobuddy/jest": "^1.0.0",
+    "@repobuddy/jest": "^1.2.0",
     "axios": "^1.2.0",
     "cross-env": "^7.0.3",
     "jest": "^29.3.1",
     "jest-watch-suspend": "^1.1.2",
     "jest-watch-toggle-config": "^2.0.1",
     "jest-watch-typeahead": "^2.2.1",
-    "mocktomata": "^7.0.7",
+    "mocktomata": "^7.0.8",
     "ts-jest": "^29.0.3",
     "typescript": "^4.9.3"
   }
