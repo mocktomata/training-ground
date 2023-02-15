@@ -2,7 +2,8 @@
 
 Welcome to the training ground of [mocktomata].
 
-There are many (?) exercises you can go through in this training ground to help you get familiar with [mocktomata].
+There are many (?) exercises you can go through in this training ground
+to help you get familiar with [mocktomata].
 
 To get started, fork this repo and clone it locally.
 
