@@ -18,7 +18,7 @@ importers:
       jest-watch-suspend: ^1.1.2
       jest-watch-toggle-config: ^2.0.1
       jest-watch-typeahead: ^2.2.1
-      mocktomata: ^7.0.8
+      mocktomata: ^9.0.0
       ts-jest: ^29.0.3
       typescript: ^4.9.3
     devDependencies:
@@ -30,7 +30,7 @@ importers:
       jest-watch-suspend: 1.1.2_jest@29.3.1
       jest-watch-toggle-config: 2.0.1_jest@29.3.1
       jest-watch-typeahead: 2.2.1_jest@29.3.1
-      mocktomata: 7.0.8
+      mocktomata: 9.1.2
       ts-jest: 29.0.3_4f6uxrzmuwipl5rr3bcogf6k74
       typescript: 4.9.3
 
@@ -889,53 +889,55 @@ packages:
       type-plus: 4.18.0
     dev: true
 
-  /@mocktomata/framework/7.0.8:
-    resolution: {integrity: sha512-/224wgcH3rNX4zWH3t3/l842B0daAydotZlUHvY1BliPDjYgVpvpO9odHf09Ui+hbUfWrA4Ih4NX/0kKUUIKmg==}
+  /@mocktomata/framework/9.1.2:
+    resolution: {integrity: sha512-e6n33yFwVE5lmhI6GuDPhmJ1te1qp0RCI+caTH8/jF4C6n4ukztiq4WnxcRc9p5ETLeVfhd+eoJULyqJwz9nQw==}
     engines: {node: '>=14.16'}
     dependencies:
       '@cucumber/cucumber-expressions': 16.1.0
-      '@ungap/structured-clone': 1.0.1
       async-fp: 8.0.2
-      iso-error: 5.0.1
-      stack-utils: 2.0.6
+      error-stack-parser: 2.1.4
+      iso-error: 6.0.0
+      json-bigint: 1.0.0
+      pathe: 1.1.0
       standard-log: 11.5.0
-      tersify: 3.11.1
-      type-plus: 4.18.0
+      tersify: 3.12.1
+      type-plus: 5.6.0
     dev: true
 
-  /@mocktomata/io-remote/7.0.8:
-    resolution: {integrity: sha512-WE5ixzXe+mzELxlhmozTQVaAvWzGIeZvf0JJ1LKMDYCYMQ5h2zI8wWC8i2IBMDeXwP8WqXKWLFfvvTVjO56dyQ==}
+  /@mocktomata/io-remote/9.1.2:
+    resolution: {integrity: sha512-bX71knt3OYSp2fTTktbP6sg0m+t1m3UNlZ8oag2ZBTcM4Ro+Vm2RDm9TDT6m4FLNpGyvQz3bEl0wigS5HyA+OQ==}
     engines: {node: '>= 14.16'}
     dependencies:
-      '@mocktomata/framework': 7.0.8
+      '@mocktomata/framework': 9.1.2
       cross-fetch: 3.1.5
-      iso-error: 5.0.1
+      iso-error: 6.0.0
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /@mocktomata/nodejs/7.0.8:
-    resolution: {integrity: sha512-QpLu7rCmGWFkzR+H+V0tQapBg25wejWRY7A25Th6jz9i9amUP0iRKKwvfws7HmlXB41+i0o5n11FGIgMtbOxSA==}
+  /@mocktomata/nodejs/9.1.2:
+    resolution: {integrity: sha512-sBQ3ofvvtK3b+MGrzfJ7qVsi8Fipzui6WUX9O4D15ok1WFsneC2VvZNOJZbgyHS5poTuuR3fSZdxHjJvS7oz+g==}
     engines: {node: '>= 14.16'}
     dependencies:
-      '@mocktomata/framework': 7.0.8
+      '@mocktomata/framework': 9.1.2
       find-installed-packages: 3.0.1
       json5: 2.2.1
-      mkdirp: 1.0.4
+      mkdirp: 2.1.5
       sanitize-filename: 1.6.3
-      type-plus: 4.18.0
+      type-plus: 5.6.0
     dev: true
 
-  /@mocktomata/service/7.0.8:
-    resolution: {integrity: sha512-YXHCIlVuJ1e5yc7vJcxvbHF9C1Hy2+2fYLAmP4WEUO2WUYEbDzrGdCeUOC6GyGl5pcZ6D2RYEa+2NaElpEgaLg==}
+  /@mocktomata/service/9.1.2:
+    resolution: {integrity: sha512-DG3bFljwFJ9eQhcgBPtKiIwrYklXWMdMxSnTtJkTjP+dymxQBvOM21ER1thduQ2kjeJRfEsO8X54BN9V7oyqwA==}
     engines: {node: '>= 14.16'}
     dependencies:
       '@hapi/boom': 10.0.0
       '@hapi/hapi': 20.2.2
-      '@mocktomata/framework': 7.0.8
-      '@mocktomata/nodejs': 7.0.8
+      '@mocktomata/framework': 9.1.2
+      '@mocktomata/nodejs': 9.1.2
       standard-log: 11.5.0
       standard-log-color: 11.5.0_standard-log@11.5.0
+      type-plus: 5.6.0
     dev: true
 
   /@repobuddy/jest/1.2.0_jqyzxoaiqhaq3dgn76wdplcabq:
@@ -1059,10 +1061,6 @@ packages:
       '@types/yargs-parser': 21.0.0
     dev: true
 
-  /@ungap/structured-clone/1.0.1:
-    resolution: {integrity: sha512-zKVyTt6rELvPXYwcVPTJcPFtY0AckN5A7xWuc7owBqR0FdtuDYhE9MZZUi6IY1kZUQFSXV1B3UOOIyLkVHYd2w==}
-    dev: true
-
   /@unional/async-context/8.0.2:
     resolution: {integrity: sha512-Sr9tYjV2o00Ev10q8tOgW1NI87j45Vl1nV3qjo8Al3dMf4wftyZUOimpJ5gaHpF5NB09GPHZltnY9gpSduge6g==}
     engines: {node: '>= 14.16'}
@@ -1073,6 +1071,12 @@ packages:
 
   /acorn/8.8.1:
     resolution: {integrity: sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: true
+
+  /acorn/8.8.2:
+    resolution: {integrity: sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -1229,6 +1233,10 @@ packages:
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+    dev: true
+
+  /bignumber.js/9.1.1:
+    resolution: {integrity: sha512-pHm4LsMJ6lzgNGVfZHjMoO8sdoRhOzOH4MLmY65Jg70bpxCKu5iOHNJyfF6OyvYw7t8Fpf35RuzUyqnQsj8Vig==}
     dev: true
 
   /brace-expansion/1.1.11:
@@ -1468,6 +1476,12 @@ packages:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
     dependencies:
       is-arrayish: 0.2.1
+    dev: true
+
+  /error-stack-parser/2.1.4:
+    resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==}
+    dependencies:
+      stackframe: 1.3.4
     dev: true
 
   /escalade/3.1.1:
@@ -1731,6 +1745,11 @@ packages:
 
   /iso-error/5.0.1:
     resolution: {integrity: sha512-w4fQk6CYBR5JYEnXs3heRkFf3iKdMExtYtAbSV5/IyhJoRen0zLBLQp3rJxrXzKgA+q+U9NXfVZot4x4wDpRNg==}
+    engines: {node: '>= 10'}
+    dev: true
+
+  /iso-error/6.0.0:
+    resolution: {integrity: sha512-5rbZLnE/HhN1I9JA0zXtDG1LHzaXXGejhP5yRRmtK50B1DKD1ppZbf848USXE1wvZNxESbyIs3lRrNVcd6F0Fg==}
     engines: {node: '>= 10'}
     dev: true
 
@@ -2282,6 +2301,12 @@ packages:
     hasBin: true
     dev: true
 
+  /json-bigint/1.0.0:
+    resolution: {integrity: sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==}
+    dependencies:
+      bignumber.js: 9.1.1
+    dev: true
+
   /json-parse-even-better-errors/2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
     dev: true
@@ -2387,24 +2412,25 @@ packages:
       minimist: 1.2.7
     dev: true
 
-  /mkdirp/1.0.4:
-    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+  /mkdirp/2.1.5:
+    resolution: {integrity: sha512-jbjfql+shJtAPrFoKxHOXip4xS+kul9W3OzfzzrqueWK2QMGon2bFH2opl6W9EagBThjEz+iysyi/swOoVfB/w==}
     engines: {node: '>=10'}
     hasBin: true
     dev: true
 
-  /mocktomata/7.0.8:
-    resolution: {integrity: sha512-0LBFDgYAB0tV+ABAh9Bw5LQHdRr+WGUO8YroezYN39aJGZU/pMMW4e1KEzKmwrXViEB61Bhpnh+yPqUZWAzEwA==}
+  /mocktomata/9.1.2:
+    resolution: {integrity: sha512-9x/dLYe1FstSPpOYmw6Rw7eV67yE9TXsNN+Wmh2qGm+JCwF2PRpO6EjOfEXqW5pYA4aeuShsw09klQhW79ItnA==}
     engines: {node: '>= 14.16'}
     dependencies:
-      '@mocktomata/framework': 7.0.8
-      '@mocktomata/io-remote': 7.0.8
-      '@mocktomata/nodejs': 7.0.8
-      '@mocktomata/service': 7.0.8
+      '@mocktomata/framework': 9.1.2
+      '@mocktomata/io-remote': 9.1.2
+      '@mocktomata/nodejs': 9.1.2
+      '@mocktomata/service': 9.1.2
       async-fp: 8.0.2
       global-store: 1.0.0-beta.21
       standard-log: 11.5.0
       standard-log-color: 11.5.0_standard-log@11.5.0
+      type-plus: 5.6.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -2519,6 +2545,10 @@ packages:
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+    dev: true
+
+  /pathe/1.1.0:
+    resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
     dev: true
 
   /picocolors/1.0.0:
@@ -2694,6 +2724,10 @@ packages:
       escape-string-regexp: 2.0.0
     dev: true
 
+  /stackframe/1.3.4:
+    resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==}
+    dev: true
+
   /standard-log-color/11.5.0_standard-log@11.5.0:
     resolution: {integrity: sha512-kL76vAP1G8WUbARKwZaI7trBv5FUnRYvesUwO3HrHDLL9ccL0GrhyU5YrgBr7imGXrDWM/kxtAP2tkB/d+VSoQ==}
     peerDependencies:
@@ -2807,6 +2841,14 @@ packages:
     resolution: {integrity: sha512-W/Kv1z+cgDRsI10p9CyCZJ+gopPUVOz1/h7OPntr6D52iIHQTbsg40MBUoaG82q8IgD/GKoWhoujg/rOxQW7SA==}
     dependencies:
       acorn: 8.8.1
+      is-buffer: 2.0.5
+      unpartial: 1.0.4
+    dev: true
+
+  /tersify/3.12.1:
+    resolution: {integrity: sha512-VwzXGHZSOB4T27s4uvh9v8FYrNXyfVz0nBQi28TDwrZoQwT8ZJUp1W2Ff73ekN07stJSb0D+pr6iXeNeFqTI6Q==}
+    dependencies:
+      acorn: 8.8.2
       is-buffer: 2.0.5
       unpartial: 1.0.4
     dev: true
@@ -2961,6 +3003,13 @@ packages:
 
   /type-plus/4.18.0:
     resolution: {integrity: sha512-Hds5neDmogRcQheEmdjbEqVq/cE9UUdd9Ic7eCRI2/AzUH1JB+0ha3Hb3Spn2m1PQRBA61kNjbgSLaljNp0L9Q==}
+    dependencies:
+      tersify: 3.12.1
+      unpartial: 1.0.4
+    dev: true
+
+  /type-plus/5.6.0:
+    resolution: {integrity: sha512-LAIvZzs6mKXYHzwRfGeOuWKsE5jHndwWlLheulMl6eWDSGa1bfZCd0aLQSMgP3HZTbazx/P2UumCqtOz5AMctA==}
     dependencies:
       tersify: 3.11.1
       unpartial: 1.0.4
