@@ -20,7 +20,7 @@ importers:
       jest-watch-typeahead: ^2.2.1
       mocktomata: ^7.0.8
       ts-jest: ^29.0.3
-      typescript: ^4.9.3
+      typescript: ^5.0.0
     devDependencies:
       '@jest/globals': 29.3.1
       '@repobuddy/jest': 1.2.0_jqyzxoaiqhaq3dgn76wdplcabq
@@ -31,8 +31,8 @@ importers:
       jest-watch-toggle-config: 2.0.1_jest@29.3.1
       jest-watch-typeahead: 2.2.1_jest@29.3.1
       mocktomata: 7.0.8
-      ts-jest: 29.0.3_4f6uxrzmuwipl5rr3bcogf6k74
-      typescript: 4.9.3
+      ts-jest: 29.0.3_lepyrix3ab2ropavk2l53azsza
+      typescript: 5.0.2
 
 packages:
 
@@ -964,7 +964,7 @@ packages:
       jest-watch-toggle-config: 2.0.1_jest@29.3.1
       jest-watch-typeahead: 2.2.1_jest@29.3.1
       satisfier: 5.4.2
-      ts-jest: 29.0.3_4f6uxrzmuwipl5rr3bcogf6k74
+      ts-jest: 29.0.3_lepyrix3ab2ropavk2l53azsza
       uni-require: 0.0.1
     transitivePeerDependencies:
       - '@types/node'
@@ -2846,7 +2846,7 @@ packages:
       utf8-byte-length: 1.0.4
     dev: true
 
-  /ts-jest/29.0.3_4f6uxrzmuwipl5rr3bcogf6k74:
+  /ts-jest/29.0.3_lepyrix3ab2ropavk2l53azsza:
     resolution: {integrity: sha512-Ibygvmuyq1qp/z3yTh9QTwVVAbFdDy/+4BtIQR2sp6baF2SJU/8CKK/hhnGIDY2L90Az2jIqTwZPnN2p+BweiQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -2875,7 +2875,7 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.3.8
-      typescript: 4.9.3
+      typescript: 5.0.2
       yargs-parser: 21.1.1
     dev: true
 
@@ -2966,9 +2966,9 @@ packages:
       unpartial: 1.0.4
     dev: true
 
-  /typescript/4.9.3:
-    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: true
 
