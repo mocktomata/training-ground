@@ -13,11 +13,11 @@
     "start:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest --watch"
   },
   "devDependencies": {
-    "@jest/globals": "^29.3.1",
+    "@jest/globals": "^30.0.0",
     "@repobuddy/jest": "^1.2.0",
     "axios": "^1.2.0",
     "cross-env": "^7.0.3",
-    "jest": "^29.3.1",
+    "jest": "^30.0.0",
     "jest-watch-suspend": "^1.1.2",
     "jest-watch-toggle-config": "^2.0.1",
     "jest-watch-typeahead": "^2.2.1",
