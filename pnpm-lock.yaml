@@ -39,8 +39,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.2(jest@29.7.0(@types/node@25.9.0))
       mocktomata:
-        specifier: ^7.0.8
-        version: 7.2.0
+        specifier: ^9.0.0
+        version: 9.2.3
       ts-jest:
         specifier: ^29.0.3
         version: 29.4.9(@babel/core@7.29.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.29.0))(jest-util@29.7.0)(jest@29.7.0(@types/node@25.9.0))(typescript@4.9.5)
@@ -408,20 +408,20 @@ packages:
   '@just-func/types@0.5.1':
     resolution: {integrity: sha512-yP+XbIIT5qGI/6TOZ0lRFHq2UubCfpf+2EKQPhEwOGsvh1vJTdDTPGyNWYHmLMLT5jx8h/SR3mAAVDmYyAjpwA==}
 
-  '@mocktomata/framework@7.2.0':
-    resolution: {integrity: sha512-CDk16aZzjL1agDfduC96srgN6rsbBevAH0bFxcQlca4KGUenjV5S2/ZNr9i+sEyYRStnpLTeslubPFNAtslwtA==}
+  '@mocktomata/framework@9.2.3':
+    resolution: {integrity: sha512-dhxcjx8zz8opev0KkeJq8It2tQEMRVuWRkjNUJQLFg62rCsdMLnnV7gmuT4j2SxsZikD96qoxzxCeg6TPyIzTg==}
     engines: {node: '>=14.16'}
 
-  '@mocktomata/io-remote@7.2.0':
-    resolution: {integrity: sha512-9QZ+kNHhnGtIh36jOM5dz4lwa/JPn7JGzlMgiXUBaBNkC5EESMFqgFWqHWC6YiqNWpPxBJ+IGrgtXBt6q2JBGg==}
+  '@mocktomata/io-remote@9.2.3':
+    resolution: {integrity: sha512-j0cVdVAeboj2f8IpOQ70NPJKomAyH7yA7igzFtppLAAYhb3QZZEQ46ORXDEFoczdJvNbx7BfOhhpsPW5RSgjaQ==}
     engines: {node: '>= 14.16'}
 
-  '@mocktomata/nodejs@7.2.0':
-    resolution: {integrity: sha512-tGUKoxVfyAYA7M1VBCDXignHHpJW66NR0MsMeDucu/PplUA0AZg32PDriwMLD8FfzxfhkZMHIV1jpk4/Ij245Q==}
+  '@mocktomata/nodejs@9.2.3':
+    resolution: {integrity: sha512-XhJ1SEdIOkrx08puYLGvA2+YQ17bJLiwXNssw1dtOtpXscuNyPX7z4jvKwfLs3SiOWLEIPsfsiK5tRF8wdp0AA==}
     engines: {node: '>= 14.16'}
 
-  '@mocktomata/service@7.2.0':
-    resolution: {integrity: sha512-bR8h1uTVltOZOVapyql6L9QZWrDKygB5BzSycFwp4VKCKen0TGFnEXjYDsUAoG4e2e4P0PEwxBWaXVlLIXX37Q==}
+  '@mocktomata/service@9.2.3':
+    resolution: {integrity: sha512-m7UoL5PxJKX0UOPOLc0F8AtvPUzBIVn4gK9JBwS7gGL62TGTwhrzLhgOyie9c9juw4+aKFfdoH27FbBBGbO4Kg==}
     engines: {node: '>= 14.16'}
 
   '@repobuddy/jest@1.4.0':
@@ -523,11 +523,12 @@ packages:
   '@types/yargs@17.0.35':
     resolution: {integrity: sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg==}
 
-  '@ungap/structured-clone@1.3.1':
-    resolution: {integrity: sha512-mUFwbeTqrVgDQxFveS+df2yfap6iuP20NAKAsBt5jDEoOTDew+zwLAOilHCeQJOVSvmgCX4ogqIrA0mnyr08yQ==}
+  '@unional/async-context@9.0.13':
+    resolution: {integrity: sha512-Z4R85nb6eaDvdIg7EC3DNzRme7PbOnGENl1heIJTNH5vvRbR0zIsUzxSSqObdIUg3MKSC+AE53Lfnxm5M62nwQ==}
+    engines: {node: '>= 14.16'}
 
-  '@unional/async-context@8.1.1':
-    resolution: {integrity: sha512-4W2+ZrhUNzs087WkG6+4h5hYu5hIBYiZASXITJnMMof8qjsVhmnaUDyZniNRqAGf4nqHrkgTNQhFOwf9uYNFBA==}
+  '@unional/gizmo@2.3.0':
+    resolution: {integrity: sha512-n8KXBTFSLrpv6QYn+6YLd3TC8I1sxb7MM/UC8jWNQwBs351LBH8nTEhx1l2xKNq65XPOR3o4KNc+pU8/wxdPMw==}
     engines: {node: '>= 14.16'}
 
   acorn@8.16.0:
@@ -574,8 +575,8 @@ packages:
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
 
-  async-fp@8.1.1:
-    resolution: {integrity: sha512-37nHZcEoHPwsRZri0g9ujrZcSFr5LEF7DaXzqUTNdFPS9aIH38vSUN4I7FIYm6CWeSSmiRTtAYN00hRCNTtU/g==}
+  async-fp@9.0.13:
+    resolution: {integrity: sha512-FqTBPwWSfJN4Syn5bRwUpw+grpApJHFY2WyPQhY7I0A5isIk1f1lN6gyB1U+AgfQue3rSnRb8igebjyEOjvf6g==}
     engines: {node: '>= 14.16'}
 
   asynckit@0.4.0:
@@ -616,6 +617,9 @@ packages:
     resolution: {integrity: sha512-MujYO3eP72uvmSE0i4wltsodRfIpZATP3jvzRNRGGxgzId7aVocVJJV3nf01qnzzKFGxQVC9bpWxl5cjxTr/7Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  bignumber.js@9.3.1:
+    resolution: {integrity: sha512-Ko0uX15oIUS7wJ3Rb30Fs6SkVbLmPBAKdlm7q9+ak9bbIeFf0MwuBsQV6z7+X768/cHsfg+WlysDWJcmthjsjQ==}
 
   brace-expansion@1.1.14:
     resolution: {integrity: sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==}
@@ -788,6 +792,9 @@ packages:
 
   error-ex@1.3.4:
     resolution: {integrity: sha512-sqQamAnR14VgCr1A618A3sGrygcpK+HEbenA/HiEAkkUwcZIIB/tgWqHFxWgOyDh4nB4JCRimh79dR5Ywc9MDQ==}
+
+  error-stack-parser@2.1.4:
+    resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==}
 
   es-define-property@1.0.1:
     resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
@@ -999,10 +1006,6 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  iso-error@5.0.2:
-    resolution: {integrity: sha512-Yf9e0ROw4TpMHU92s2YeV0G05cOk5/HkQiRZxYAUqfI9ls5wLIPI+5plTLOrFJIPeohMOVNdFZqiUiB55QHIqA==}
-    engines: {node: '>= 10'}
-
   iso-error@6.0.3:
     resolution: {integrity: sha512-QVdiQdEbZ3aiW7KMxenB0jvKygpiy9FMjitW6q6DaGXbVjLiu3zYPmrKG/Jts7xTXSIrZ8Wrst0KaS+r9+ys7g==}
     engines: {node: '>= 10'}
@@ -1190,6 +1193,9 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
+  json-bigint@1.0.0:
+    resolution: {integrity: sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==}
+
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
 
@@ -1266,13 +1272,13 @@ packages:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
 
-  mkdirp@1.0.4:
-    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+  mkdirp@2.1.6:
+    resolution: {integrity: sha512-+hEnITedc8LAtIP9u3HJDFIdcLV2vXP33sqLLIzkv1Db1zO/1OxbvYf0Y1OC/S/Qo5dxHXepofhmxL02PsKe+A==}
     engines: {node: '>=10'}
     hasBin: true
 
-  mocktomata@7.2.0:
-    resolution: {integrity: sha512-sL/ay7Rd7CB718V1fZoP1T8KgJvlYb0VIbNi6UEWPfCdRPJnUcQBDTpjStFT9yuZb8ZJ1QOzQUoWjqCzk+dowA==}
+  mocktomata@9.2.3:
+    resolution: {integrity: sha512-1v5JXXaZ+psgKkOVd9xPLva+Wsh/MiBIzFcW9rzlZW1deKcFn7JuHciVYvIiKWiTkCq3SsPQ7K+F0tdANR8eXQ==}
     engines: {node: '>= 14.16'}
 
   ms@2.1.3:
@@ -1351,6 +1357,9 @@ packages:
 
   path-parse@1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+
+  pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
 
   pattern-key-compare@1.0.0:
     resolution: {integrity: sha512-7wi8a7OFmdx4Hx31+KY9kcD7gO+MWWupXtlAx7ANqoE8Pypl501FsDAPX2tSYLOuafED82A0Mv3lzeNfn82Jlg==}
@@ -1499,13 +1508,16 @@ packages:
     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}
     engines: {node: '>=10'}
 
-  standard-log-color@11.5.2:
-    resolution: {integrity: sha512-UeMYvfe2OVtVgyITXx2+5gmdg0z1Eb9vXbye9RgJE0LJs6aKc9dHjGDjBQHiWMWZG7m0PmtqB0adZQIjwoEoaw==}
+  stackframe@1.3.4:
+    resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==}
+
+  standard-log-color@12.1.2:
+    resolution: {integrity: sha512-3ZFt/+zhX58tekK/k8KrKBBkilopvYpmMPx1j1okyaM8VTmXkodB2uJJCBmfrrXZ7F2AjuOCeZig80p1B03D+w==}
     peerDependencies:
       standard-log: '>=11.0.1'
 
-  standard-log@11.5.2:
-    resolution: {integrity: sha512-ucM5UTaAJgN6RQVoDHoP0K6dqJEeVbm1+V4HJ57PcykZNnzWgaXFTCJMffFdRqL/4k+ctIrtWEQxzczu+9XjhQ==}
+  standard-log@12.1.2:
+    resolution: {integrity: sha512-vFTFTkiZhHg8PGpp7wnOPJsQQsO2DMX1bnEAVms8LF9IdJWNGGMD+1btV5pWUkFb7p/qDHUhZqN/do+nsg0rPQ==}
 
   string-length@4.0.2:
     resolution: {integrity: sha512-+l6rNN5fYHNhZZy41RXsYptCjA2Igmq4EG7kZAYFQI1E1VTXarr6ZPXBg6eq7Y6eK4FEhY6AJlyuFIb/v/S0VQ==}
@@ -1550,10 +1562,6 @@ packages:
   supports-color@8.1.1:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
-
-  supports-color@9.4.0:
-    resolution: {integrity: sha512-VL+lNrEoIXww1coLPOmiEmK/0sGigko5COxI09KzHc2VJXJsQ37UaQ+8quuxjDeA7+KnLGTWRyOXSLLR2Wb4jw==}
-    engines: {node: '>=12'}
 
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
@@ -1640,8 +1648,11 @@ packages:
   type-plus@5.6.0:
     resolution: {integrity: sha512-LAIvZzs6mKXYHzwRfGeOuWKsE5jHndwWlLheulMl6eWDSGa1bfZCd0aLQSMgP3HZTbazx/P2UumCqtOz5AMctA==}
 
-  type-plus@6.8.1:
-    resolution: {integrity: sha512-yEv9ZE4Lw7fUGQOUYGtUoRJrC46Uta2U2HnpuvIVnwFVmzMP9oE5on7xOxsT39o0hk2lkFghZqlba9GvmW0/rw==}
+  type-plus@7.6.2:
+    resolution: {integrity: sha512-qUlXv9Y0/W56pg38m275IMD3WA03QbVoqNY16S3kmwtuA4gOT2iheyUdOp8NWrmXWpf7om98hzr7AZD/eW2jLA==}
+
+  type-plus@8.0.0-beta.7:
+    resolution: {integrity: sha512-LTV9UqBJ20I48Ba2L8N25EOowtrs40MLzsqQFfvAXnPAN9z0ny4CjduFfNIfW7euZ6wr6ImShEtrhR1virHiNw==}
 
   typescript@4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
@@ -2289,42 +2300,44 @@ snapshots:
     dependencies:
       type-plus: 5.6.0
 
-  '@mocktomata/framework@7.2.0':
+  '@mocktomata/framework@9.2.3':
     dependencies:
       '@cucumber/cucumber-expressions': 16.1.2
-      '@ungap/structured-clone': 1.3.1
-      async-fp: 8.1.1
-      iso-error: 5.0.2
-      stack-utils: 2.0.6
-      standard-log: 11.5.2
+      async-fp: 9.0.13
+      error-stack-parser: 2.1.4
+      iso-error: 6.0.3
+      json-bigint: 1.0.0
+      pathe: 1.1.2
+      standard-log: 12.1.2
       tersify: 3.12.1
-      type-plus: 5.6.0
+      type-plus: 7.6.2
 
-  '@mocktomata/io-remote@7.2.0':
+  '@mocktomata/io-remote@9.2.3':
     dependencies:
-      '@mocktomata/framework': 7.2.0
+      '@mocktomata/framework': 9.2.3
       cross-fetch: 3.2.0
-      iso-error: 5.0.2
+      iso-error: 6.0.3
     transitivePeerDependencies:
       - encoding
 
-  '@mocktomata/nodejs@7.2.0':
+  '@mocktomata/nodejs@9.2.3':
     dependencies:
-      '@mocktomata/framework': 7.2.0
+      '@mocktomata/framework': 9.2.3
       find-installed-packages: 3.1.1
       json5: 2.2.3
-      mkdirp: 1.0.4
+      mkdirp: 2.1.6
       sanitize-filename: 1.6.4
-      type-plus: 5.6.0
+      type-plus: 7.6.2
 
-  '@mocktomata/service@7.2.0':
+  '@mocktomata/service@9.2.3':
     dependencies:
       '@hapi/boom': 10.0.1
       '@hapi/hapi': 20.3.0
-      '@mocktomata/framework': 7.2.0
-      '@mocktomata/nodejs': 7.2.0
-      standard-log: 11.5.2
-      standard-log-color: 11.5.2(standard-log@11.5.2)
+      '@mocktomata/framework': 9.2.3
+      '@mocktomata/nodejs': 9.2.3
+      standard-log: 12.1.2
+      standard-log-color: 12.1.2(standard-log@12.1.2)
+      type-plus: 7.6.2
 
   '@repobuddy/jest@1.4.0(jest-watch-suspend@1.1.2(jest@29.7.0(@types/node@25.9.0)))(jest-watch-toggle-config@2.0.1(jest-validate@29.7.0)(jest@29.7.0(@types/node@25.9.0)))(jest-watch-typeahead@2.2.2(jest@29.7.0(@types/node@25.9.0)))(jest@29.7.0(@types/node@25.9.0))(ts-jest@29.4.9(@babel/core@7.29.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.29.0))(jest-util@29.7.0)(jest@29.7.0(@types/node@25.9.0))(typescript@4.9.5))':
     dependencies:
@@ -2416,12 +2429,14 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@ungap/structured-clone@1.3.1': {}
-
-  '@unional/async-context@8.1.1':
+  '@unional/async-context@9.0.13':
     dependencies:
       iso-error: 6.0.3
-      type-plus: 6.8.1
+      type-plus: 7.6.2
+
+  '@unional/gizmo@2.3.0':
+    dependencies:
+      type-plus: 8.0.0-beta.7
 
   acorn@8.16.0: {}
 
@@ -2460,9 +2475,10 @@ snapshots:
     dependencies:
       sprintf-js: 1.0.3
 
-  async-fp@8.1.1:
+  async-fp@9.0.13:
     dependencies:
-      '@unional/async-context': 8.1.1
+      '@unional/async-context': 9.0.13
+      '@unional/gizmo': 2.3.0
 
   asynckit@0.4.0: {}
 
@@ -2534,6 +2550,8 @@ snapshots:
   balanced-match@1.0.2: {}
 
   baseline-browser-mapping@2.10.31: {}
+
+  bignumber.js@9.3.1: {}
 
   brace-expansion@1.1.14:
     dependencies:
@@ -2688,6 +2706,10 @@ snapshots:
   error-ex@1.3.4:
     dependencies:
       is-arrayish: 0.2.1
+
+  error-stack-parser@2.1.4:
+    dependencies:
+      stackframe: 1.3.4
 
   es-define-property@1.0.1: {}
 
@@ -2879,8 +2901,6 @@ snapshots:
   is-stream@2.0.1: {}
 
   isexe@2.0.0: {}
-
-  iso-error@5.0.2: {}
 
   iso-error@6.0.3: {}
 
@@ -3265,6 +3285,10 @@ snapshots:
 
   jsesc@3.1.0: {}
 
+  json-bigint@1.0.0:
+    dependencies:
+      bignumber.js: 9.3.1
+
   json-parse-even-better-errors@2.3.1: {}
 
   json5@2.2.3: {}
@@ -3324,18 +3348,19 @@ snapshots:
     dependencies:
       minimist: 1.2.8
 
-  mkdirp@1.0.4: {}
+  mkdirp@2.1.6: {}
 
-  mocktomata@7.2.0:
+  mocktomata@9.2.3:
     dependencies:
-      '@mocktomata/framework': 7.2.0
-      '@mocktomata/io-remote': 7.2.0
-      '@mocktomata/nodejs': 7.2.0
-      '@mocktomata/service': 7.2.0
-      async-fp: 8.1.1
+      '@mocktomata/framework': 9.2.3
+      '@mocktomata/io-remote': 9.2.3
+      '@mocktomata/nodejs': 9.2.3
+      '@mocktomata/service': 9.2.3
+      async-fp: 9.0.13
       global-store: 1.0.0-beta.21
-      standard-log: 11.5.2
-      standard-log-color: 11.5.2(standard-log@11.5.2)
+      standard-log: 12.1.2
+      standard-log-color: 12.1.2(standard-log@12.1.2)
+      type-plus: 7.6.2
     transitivePeerDependencies:
       - encoding
 
@@ -3402,6 +3427,8 @@ snapshots:
   path-key@3.1.1: {}
 
   path-parse@1.0.7: {}
+
+  pathe@1.1.2: {}
 
   pattern-key-compare@1.0.0: {}
 
@@ -3531,19 +3558,21 @@ snapshots:
     dependencies:
       escape-string-regexp: 2.0.0
 
-  standard-log-color@11.5.2(standard-log@11.5.2):
+  stackframe@1.3.4: {}
+
+  standard-log-color@12.1.2(standard-log@12.1.2):
     dependencies:
       color-map: 2.0.6
-      standard-log: 11.5.2
-      supports-color: 9.4.0
+      standard-log: 12.1.2
+      supports-color: 8.1.1
       unpartial: 1.0.5
 
-  standard-log@11.5.2:
+  standard-log@12.1.2:
     dependencies:
       '@just-func/types': 0.5.1
       iso-error: 6.0.3
       ms: 2.1.3
-      type-plus: 6.8.1
+      type-plus: 7.6.2
       upper-case: 2.0.2
 
   string-length@4.0.2:
@@ -3587,8 +3616,6 @@ snapshots:
   supports-color@8.1.1:
     dependencies:
       has-flag: 4.0.0
-
-  supports-color@9.4.0: {}
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
@@ -3667,7 +3694,12 @@ snapshots:
       tersify: 3.12.1
       unpartial: 1.0.5
 
-  type-plus@6.8.1:
+  type-plus@7.6.2:
+    dependencies:
+      tersify: 3.12.1
+      unpartial: 1.0.5
+
+  type-plus@8.0.0-beta.7:
     dependencies:
       tersify: 3.12.1
       unpartial: 1.0.5
